@@ -1,0 +1,331 @@
+/* Universal Styles */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: rgba(241, 241, 241, 0.938);
+}
+
+/* Header Styles */
+
+.main-header {
+    background: rgb(2, 75, 133);
+    text-align: center;
+    color: rgb(223, 223, 223);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.main-nav li {
+    list-style-type: none;
+    background-color: rgb(158, 158, 158);
+    margin-bottom: 5px;
+    margin-right: 35px;
+    padding: 10px 0;
+
+}
+
+.main-nav a:link,
+.main-nav a:visited,
+.main-nav a:active {
+    font-weight: 500;
+    font-size: 1.75em;
+    text-decoration: none;
+    color: rgb(223, 223, 223)
+}
+
+.main-nav a:hover {
+    color: rgb(88, 16, 16);
+}
+
+.profile-pic {
+    margin: 40px auto;
+    width: 70%;
+}
+
+.bio {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+}
+
+main {
+    margin-top: 0;
+}
+
+/* Main Section Styles */
+
+h4 {
+    font-weight: 600;
+    font-size: 1.75em;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: 0;
+}
+
+.pic {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+.skills {
+    padding-bottom: 70px;
+}
+
+
+.logo {
+    margin: 0 auto;
+    width: 40%;
+    display: block;
+}
+
+/* Footer Styles */
+
+.main-footer {
+    background: rgb(2, 75, 133);
+    margin-bottom: 0;
+    color: rgb(223, 223, 223);
+}
+
+.main-footer ul {
+    margin-bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+.main-footer h4 {
+    margin-bottom: 0;
+}
+
+.main-footer ul {
+    margin-top: 0;
+    padding-left: 0;
+    padding-bottom: 70px;
+}
+
+.main-footer li {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.main-footer span {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.main-footer h5 {
+    font-size: 1.25em;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(223, 223, 223);
+}
+
+hr {
+    border-top: 1px solid rgb(177, 177, 177);
+    width: 90%;
+}
+
+.footer-nav {
+    display: none;
+    /* width: 0;
+    height: 0; */
+}
+
+.footer-name {
+    float: left;
+    padding-top: 25px;
+    margin-left: 5%;
+    font-size: 1em; 
+    color: rgb(223, 223, 223);   
+}
+
+.top {
+    float: right;
+    padding-top: 25px;
+    margin-right: 5%;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.top a:link,
+.top a:visited,
+.top a:active {
+    text-decoration: none;
+    color: rgb(223, 223, 223)
+}
+
+.top a:hover {
+    color: rgb(88, 16, 16);
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+    .container {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .main-header {
+        padding-bottom: 3%;
+    }
+
+   .main-nav li {
+       display: inline-block;
+       background: none;
+   }
+
+   .bio {
+       float: left;
+       width: 58%;
+       padding-top: 10%;
+       padding-left: 4%;
+       text-align: left;
+   }
+
+   .profile-pic {
+       float: right;
+       width: 33%;
+       padding-right: 4%;
+       padding-top: 4%
+   }
+   
+    .col {
+        float: left;
+        width: 50%;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .skills .col {
+        float: left;
+        width: 33.3%;
+    }
+
+    .footer-nav {
+        display: contents;
+    }
+
+    .footer-nav ul {
+        padding-top: 25px;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+        margin-left: 12px;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    .footer-nav a:link,
+    .footer-nav a:visited,
+    .footer-nav a:active {
+        text-decoration: none;
+        color: rgb(223, 223, 223);
+    }
+    
+    .footer-nav a:hover {
+        color: rgb(88, 16, 16);
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .container {
+		width: 90%;
+		max-width: 1150px;
+    }
+    .name {
+        float: left;
+        padding-left: 7%;
+        padding-top: 5%;
+        font-size: 1.7em;
+    }
+
+    .main-nav ul {
+        padding-top: 4%;
+        float: right;
+        padding-right: 5%;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 12px;
+        text-decoration: none;
+        font-size: .7em;
+    }
+
+    .bio {
+        padding-left: 7%;
+        width: 45%;
+        float: left;
+    }
+
+    .profile-pic {
+        padding-right: 7%;
+        clear: both;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }    
+    
+    .col {
+        width: 33.3%;
+    }
+
+    main {
+        border-right: 40px solid rgb(2, 75, 133);
+        border-left: 40px solid rgb(2, 75, 133);
+    }
+
+}

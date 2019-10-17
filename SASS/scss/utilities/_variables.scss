@@ -1,0 +1,23 @@
+// Colors
+$white: #fff;
+$gray: #ccc;
+
+$color-primary: #58e1c1;
+$color-secondary: #51ddfc;
+$color-secondary-light: lighten($color-secondary, 15%);
+$color-text: #777;
+$color-error: #e4757a;
+$color-error-light: lighten($color-error, 15%);
+$color-info: #927bc1;
+$color-info-light: lighten($color-info, 15%);
+$color-success: #63cc82;
+$color-success-light: lighten($color-success, 15%);
+$color-warning: #fd7856;
+$color-warning-light: lighten($color-warning, 15%);
+
+
+// Fonts
+$font-family-primary: 'Lato', sans-serif;
+
+// Breakpoint
+$break: 768px;

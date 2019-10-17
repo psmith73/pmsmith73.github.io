@@ -1,0 +1,827 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_reset.scss */
+[hidden] {
+  display: none;
+}
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_base.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 9, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.container {
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 16, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 22, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 22, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row {
+    flex-direction: row;
+  }
+}
+
+/* line 31, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 31, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 43, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 51, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-1 {
+    flex-basis: 8.33%;
+  }
+}
+
+/* line 56, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-1 {
+  background-color: #927bc1;
+}
+
+@media (min-width: 768px) {
+  /* line 62, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-2 {
+    flex-basis: 16.67%;
+  }
+}
+
+/* line 67, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-2 {
+  background-color: #fd7856;
+}
+
+@media (min-width: 768px) {
+  /* line 73, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-3 {
+    flex-basis: 25.00%;
+  }
+}
+
+/* line 78, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-3 {
+  background-color: #deb2ee;
+}
+
+@media (min-width: 768px) {
+  /* line 84, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-4 {
+    flex-basis: 33.33%;
+  }
+}
+
+/* line 89, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-4 {
+  background-color: #9cecfd;
+}
+
+@media (min-width: 768px) {
+  /* line 95, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-5 {
+    flex-basis: 41.67%;
+  }
+}
+
+/* line 100, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-5 {
+  background-color: #9ddfb0;
+}
+
+@media (min-width: 768px) {
+  /* line 106, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-6 {
+    flex-basis: 50.00%;
+  }
+}
+
+/* line 111, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-6 {
+  background-color: #4da2bb;
+}
+
+@media (min-width: 768px) {
+  /* line 117, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-7 {
+    flex-basis: 58.33%;
+  }
+}
+
+/* line 122, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-7 {
+  background-color: #f1b5b8;
+}
+
+@media (min-width: 768px) {
+  /* line 128, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-8 {
+    flex-basis: 66.67%;
+  }
+}
+
+/* line 133, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-8 {
+  background-color: #feb4a2;
+}
+
+@media (min-width: 768px) {
+  /* line 141, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-9 {
+    flex-basis: 75.00%;
+  }
+}
+
+/* line 146, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-9 {
+  background-color: #e4757a;
+}
+
+@media (min-width: 768px) {
+  /* line 152, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-10 {
+    flex-basis: 83.33%;
+  }
+}
+
+/* line 157, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-10 {
+  background-color: #63cc82;
+}
+
+@media (min-width: 768px) {
+  /* line 163, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-11 {
+    flex-basis: 91.67%;
+  }
+}
+
+/* line 168, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-11 {
+  background-color: #51ddfc;
+}
+
+@media (min-width: 768px) {
+  /* line 174, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+  .row .col-12 {
+    flex-basis: 100.00%;
+  }
+}
+
+/* line 179, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.row .theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 184, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/layout/_container.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 16, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+/* line 23, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.default {
+  background-color: #51ddfc;
+  transition: background-color .5s ease-in-out;
+}
+
+/* line 26, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #9cecfd;
+}
+
+/* line 31, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.error {
+  background-color: #e4757a;
+  transition: background-color .5s ease-in-out;
+}
+
+/* line 34, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 39, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.info {
+  background-color: #927bc1;
+  transition: background-color .5s ease-in-out;
+}
+
+/* line 42, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 47, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.success {
+  background-color: #63cc82;
+  transition: background-color .5s ease-in-out;
+}
+
+/* line 50, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 55, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.warning {
+  background-color: #fd7856;
+  transition: background-color .5s ease-in-out;
+}
+
+/* line 58, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #feb4a2;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_forms.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 9, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_forms.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+/* line 18, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_forms.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 12, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 20, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* line 15, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+.nav .nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  /* line 15, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+  .nav .nav-link {
+    flex-basis: 100px;
+  }
+}
+
+/* line 28, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_nav.scss */
+.nav .nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 5, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+* {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 11, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 16, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 21, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 26, ../../../../../Users/phil/Desktop/Treehouse/Web-Style-Guide-Project/scss/components/_typography.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

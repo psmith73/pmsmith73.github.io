@@ -1,0 +1,186 @@
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.container {
+  padding: 0 10px;
+  @include md {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}
+
+.centered {
+  @include md {
+    @include center;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+  @include md {
+    flex-direction: row;
+  }
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  @include md {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  & + [class^=col] {
+    @include md {
+      margin-left: 10px;
+    }
+  }
+}
+
+.row {
+  & .col-1 {
+    @include md {
+      flex-basis: 8.33%;
+    }
+  }
+  & .theme.col-1 {
+    background-color: $color-info;
+  }
+}
+
+.row {
+  & .col-2 {
+    @include md {
+      flex-basis: 16.67%;
+    }
+  }
+  & .theme.col-2 {
+    background-color: $color-warning;
+  }
+}
+
+.row {
+  & .col-3 {
+    @include md {
+      flex-basis: 25.00%;
+    }
+  }
+  & .theme.col-3 {
+    background-color: #deb2ee;
+  }
+}
+
+.row {
+  & .col-4 {
+    @include md {
+      flex-basis: 33.33%;
+    }
+  }
+  & .theme.col-4 {
+    background-color: $color-secondary-light;
+  }
+}
+
+.row {
+  & .col-5 {
+    @include md {
+      flex-basis: 41.67%;
+    }
+  }
+  & .theme.col-5 {
+    background-color: $color-success-light;
+  }
+}
+
+.row {
+  & .col-6 {
+    @include md {
+      flex-basis: 50.00%;
+    }
+  }
+  & .theme.col-6 {
+    background-color: #4da2bb;
+  }
+}
+
+.row {
+  & .col-7 {
+    @include md {
+      flex-basis: 58.33%;
+    }
+  }
+  & .theme.col-7 {
+    background-color: $color-error-light;
+  }
+}
+
+.row {
+  & .col-8 {
+    @include md {
+      flex-basis: 66.67%;
+    }
+  }
+  & .theme.col-8 {
+    background-color: $color-warning-light;
+    
+  }
+}
+
+
+.row {
+  & .col-9 {
+    @include md {
+      flex-basis: 75.00%;
+    }
+  }
+  & .theme.col-9 {
+    background-color: $color-error;
+  }
+}
+
+.row {
+  & .col-10 {
+    @include md {
+      flex-basis: 83.33%;
+    }
+  }
+  & .theme.col-10 {
+    background-color: $color-success;
+  }
+}
+
+.row {
+  & .col-11 {
+    @include md {
+      flex-basis: 91.67%;
+    }
+  }
+  & .theme.col-11 {
+    background-color: $color-secondary;
+  }
+}
+
+.row {
+  & .col-12 {
+    @include md {
+      flex-basis: 100.00%;
+    }
+  }
+  & .theme.col-12 {
+    background-color: #80e8d1;
+  }
+}
+
+.card {
+  flex-basis: 100%;
+}
